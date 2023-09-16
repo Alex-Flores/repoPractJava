@@ -29,8 +29,13 @@ public class Herencia {
         
         Persona perso = new Persona ();
         Consultor consul = new Consultor ();
-        perso = consul;
+        perso = consul; //objeto persona se le puede asignar objeto consultor
         //error: consul = perso;
+        //se puede de padre a hijo pero no de viceversa
+        
+        //public - todos acceden
+        //private - ninguna otra clase va a poder acceder a ese atributo
+        //protected - establece que el acceso de atributos y metodos, solo pueden ser utilizados por sus calses hijas
     }
  
 }
